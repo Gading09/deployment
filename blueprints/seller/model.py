@@ -1,7 +1,7 @@
 from blueprints import db
 from flask_restful import fields
 import datetime
-
+# coba
 class Sellers(db.Model):
     __tablename__ = "Seller"
     id = db.Column(db.Integer, primary_key = True, autoincrement = True)
